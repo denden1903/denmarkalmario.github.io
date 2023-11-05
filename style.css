@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Nunito Sans', sans-serif;
+   
+    text-decoration: none;
+    margin: 0; padding: 0%;
+    outline: none; border: none;
+ 
+    transition: all .2s linear;
+}
+navbar{
+    background-color: white;
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration:none ;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+ 
+}
+.home h1{
+    font: 1.4rem;
+    text-transform: uppercase;
+   
+    border-bottom: 3px solid rgb(233, 20, 109);
+    width: 29%;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.progress {
+    height: 40px; 
+  }
+.card{
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+}
+.education .box-container .box{
+   
+    margin: 4rem 3rem;
+    padding-left: 7rem;
+    border-left: .2rem solid black;
+    position: relative;
+}
+
+.education .box-container .box span{
+    font-size: 27px;
+    
+    color: rgb(35, 98, 153);
+    border-radius: 1px;
+    font-weight: bold;
+    
+}
+.education .box-container .box h3{
+    font-size: 20px;
+    color: rgb(42, 66, 87);
+  
+    font-weight: bold;
+}
+
+.education .box-container .box p{
+    font-size: 20px;
+    color: rgb(37, 63, 85);
+    padding: 2px;
+}
+.education .box-container .box i{
+    position: absolute;
+    top: -1.5rem; left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(71, 124, 171);
+    background-color: black;
+}
+
+
+
+  
+  
+  
+  
+  .services .title {
+    margin-left: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .title a {
+    color: rgb(36, 59, 95);
+    font-size: 25px;
+  }
+  
+  .services .title a:hover {
+    color: #4e7183;
+  }
+  
+  .services .description {
+  
+    line-height: 24px;
+    font-size: 20px;
+  }
+  
+  .social-media{
+    width: 100%;
+   
+    margin-top: 20px;
+  }
+  
+  .social-media ul{
+    list-style: none;
+  }
+  
+  .social-media ul li{
+    display: inline-block;
+    cursor: pointer;
+    margin: 25px 15px;
+  }
+  
+  .social-media img{
+    width: 40px;
+    height: 40px;
+  }
